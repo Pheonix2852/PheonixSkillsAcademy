@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+
+    <!--Page Styling Stylesheets link-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+
+    <!--Icons link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-image: url(images/bg-texture.png);
+        }
+    </style>
+
+</head>
+<body>
+
+<!-------------------------------NAV BAR STARTS------------------------------->    
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>PHEONIX</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+<!-------------------------------NAV BAR ENDS------------------------------->
+
+
+
+<!-------------------------------CONTACT STARTS------------------------------->
+
+
+<section class="contact">
+    <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="images/contact.svg" alt="Contact">
+            </div>
+            <h2>Contact Us</h2>
+            <p>Got questions or need assistance? We're here to help! Contact our friendly team for prompt and personalized support.</p>
+            <ul class="contact__details">
+                <li><i class="fa-solid fa-phone"></i>
+                    <h5>+01 234 567 890</h5>
+                </li>
+                <li><i class="fa-solid fa-envelope"></i>
+                    <h5>sagnikkumbhakar.2003.va@gmail.com</h5>
+                </li>
+                <li><i class="fa-solid fa-location-dot"></i>
+                    <h5>Virginia,United States</h5>
+                </li>
+                <li><i class="fa-solid fa-phone"></i>
+                    <h5>+01 234 567 890</h5>
+                </li>
+            </ul>
+            <ul class="contact__socials">
+                <li><a href="https://www.instagram.com/sagnikkumbhakar/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sagnikkumbhakar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/Pheonix2852" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100004905574687" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </aside>
+
+        <form action="https://formspree.io/f/mwkdbopb" method="post" class="contact__form">
+
+            <div class="form__name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+
+            <input type="email" name="Email Address" placeholder="Enter your email address" required>
+            <textarea name="Message" rows="7" placeholder="Enter your Message" required></textarea>
+
+            <button type="submit" class="btn  btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!-------------------------------CONTACT ENDS------------------------------->
+
+
+<!-------------------------------FOOTER STARTS------------------------------->    
+
+<footer>
+    <div class="container footer__container">
+
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>PHEONIX</h4></a>
+            <p>Empower Your Future with Pheonix. Unlock new skills and opportunities with our industry-leading courses. Your journey to success begins here.</p>
+        </div>
+
+        <div class="footer__2">
+            <h4>Pagelinks</h4>
+            <ul class="pagelinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+01 234 567 890</p>
+                <p>pheonixskillschool@gmail.com</p>
+            </div>
+
+            <ul class="footer__socials">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer__copyright">
+        <small>Copyright &copy; Sagnik</small>
+    </div>
+    
+</footer>
+
+
+<!-------------------------------FOOTER ENDS------------------------------->    
+
+<script src="/main.js"></script>
+
+</body>
+</html>
