@@ -15,4 +15,4 @@ The layout adapts seamlessly across all screen sizes using CSS media queries, en
 This project helped reinforce core front-end skills and gave me hands-on experience with responsive web design principles and dynamic UI behavior.
 
 ## 🔗 Live Preview
-[👉 View Live]([https://your-live-site-link.com](https://pheonix-skills-academy.netlify.app/))
+[👉 View Live](https://pheonix-skills-academy.netlify.app/)
